@@ -16,7 +16,7 @@ Why every design failed is in the paper: **[Who Writes the Answer Key?](https://
 
 - **[NOETHER](https://github.com/dlowzzxx/NOETHER)**: turns physics intuitions into testable predictions, so evidence decides what survives.
 - **[KeplerLab](https://github.com/dlowzzxx/KeplerLab)**: a physics-informed neural network for orbital dynamics, built to show where it fails and why.
-- **[Artemis II simulator](https://github.com/dlowzzxx/artemis-ii-orbital-sim)**: an Earth–Moon N-body simulation of the Artemis II mission profile.
+- **[Artemis II simulator](https://github.com/dlowzzxx/artemis-ii-orbital-sim)**: an Earth–Moon N-body simulation of the Artemis II mission profile ([run it in your browser](https://artemis-ii-orbital-sim.vercel.app)).
 
 ### Merged upstream
 
