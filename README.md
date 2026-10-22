@@ -1,17 +1,32 @@
-# Hi, I'm Erin
+# Erin Krasniqi
 
-I build scientific and AI tooling and contribute focused correctness fixes to Python open source. My interests span theoretical physics, human–AI research tools, and reliable AI observability.
+I try to build tests that AI can't game. So far the AI keeps winning, and the reasons are the interesting part.
 
-### Selected open-source contributions
+From September to October 2026 I led **JUMP**: one person and three AI systems (ChatGPT Pro, Codex and Claude) trying to build a benchmark of autonomous physics research that models couldn't saturate without genuinely getting better.
 
-- **[OpenTelemetry GenAI — retrieval relevance scores](https://github.com/open-telemetry/opentelemetry-python-genai/pull/670):** captured document scores in LangChain retrieval spans, including valid zero values and safeguards for invalid scores.
-- **[OpenInference — async context attributes](https://github.com/Arize-ai/openinference/pull/3662):** preserved context attributes through coroutine execution and generator suspension without leaking them into callers.
-- **[OpenInference — built-in search tools](https://github.com/Arize-ai/openinference/pull/3684):** added telemetry for OpenAI Agents file-search and web-search calls.
-- **[OpenInference — computer actions](https://github.com/Arize-ai/openinference/pull/3685):** recorded computer tool actions while masking screenshots in telemetry.
+```text
+rounds of design and review ...... about 48
+model episodes ................... 162
+designs that survived ............ 0
+```
 
-These changes are merged upstream. I favor reproducible bugs, regression tests, and following through on review over collecting PRs.
+Why every design failed is in the paper: **[Who Writes the Answer Key?](https://doi.org/10.5281/zenodo.23579090)** ([on GitHub](https://github.com/dlowzzxx/who-writes-the-answer-key))
 
-### Building and exploring
+### Physics, built with AI coding assistance
 
-- [NOETHER](https://github.com/dlowzzxx/NOETHER) explores how to turn physics intuitions into testable models.
-- I'm growing my contributions in the [Hugging Face ecosystem](https://github.com/pulls?q=is%3Apr+author%3Adlowzzxx+org%3Ahuggingface), with a focus on practical, well-tested fixes.
+- **[NOETHER](https://github.com/dlowzzxx/NOETHER)**: turns physics intuitions into testable predictions, so evidence decides what survives.
+- **[KeplerLab](https://github.com/dlowzzxx/KeplerLab)**: a physics-informed neural network for orbital dynamics, built to show where it fails and why.
+- **[Artemis II simulator](https://github.com/dlowzzxx/artemis-ii-orbital-sim)**: an Earth–Moon N-body simulation of the Artemis II mission profile.
+
+### Merged upstream
+
+34 pull requests across 14 open-source repositories. Codex wrote most of the code; I pick the issue, scope the change and see it through review. A few:
+
+- [OpenInference #3662](https://github.com/Arize-ai/openinference/pull/3662): tracing context now survives coroutines and generators.
+- [OpenTelemetry Python #5631](https://github.com/open-telemetry/opentelemetry-python/pull/5631): named metric views without an instrument name now raise an error, with regression tests.
+- [Hugging Face tokenizers #2547](https://github.com/huggingface/tokenizers/pull/2547): Split deserialization honors the configured regex backend.
+- [OpenTelemetry GenAI #670](https://github.com/open-telemetry/opentelemetry-python-genai/pull/670): retrieval spans record document relevance scores, valid zeros included.
+
+### Also
+
+First-year Computing and Information Technologies student at RIT Kosovo. Elsewhere: [X](https://x.com/KrasniqiErin) · [ORCID](https://orcid.org/0009-0008-0051-4163)
