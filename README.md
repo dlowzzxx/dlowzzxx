@@ -12,7 +12,7 @@ designs that survived ............ 0
 
 Why every design failed is in the paper: **[Who Writes the Answer Key?](https://doi.org/10.5281/zenodo.23579090)** ([on GitHub](https://github.com/dlowzzxx/who-writes-the-answer-key))
 
-### Physics, built with AI coding assistance
+### Physics
 
 - **[NOETHER](https://github.com/dlowzzxx/NOETHER)**: turns physics intuitions into testable predictions, so evidence decides what survives ([explore the course](https://noether-intuition-lab.aanisakrasniqi.chatgpt.site)).
 - **[KeplerLab](https://github.com/dlowzzxx/KeplerLab)**: a physics-informed neural network for orbital dynamics, built to show where it fails and why ([try the demo](https://kepler-lab.vercel.app)).
@@ -31,4 +31,4 @@ Why every design failed is in the paper: **[Who Writes the Answer Key?](https://
 
 ### Also
 
-First-year Computing and Information Technologies student at RIT Kosovo. Elsewhere: [X](https://x.com/KrasniqiErin) · [ORCID](https://orcid.org/0009-0008-0051-4163)
+First-year Electrical Engineering student at RIT Kosovo. Elsewhere: [X](https://x.com/KrasniqiErin) · [ORCID](https://orcid.org/0009-0008-0051-4163)
