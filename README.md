@@ -14,8 +14,8 @@ Why every design failed is in the paper: **[Who Writes the Answer Key?](https://
 
 ### Physics, built with AI coding assistance
 
-- **[NOETHER](https://github.com/dlowzzxx/NOETHER)**: turns physics intuitions into testable predictions, so evidence decides what survives.
-- **[KeplerLab](https://github.com/dlowzzxx/KeplerLab)**: a physics-informed neural network for orbital dynamics, built to show where it fails and why.
+- **[NOETHER](https://github.com/dlowzzxx/NOETHER)**: turns physics intuitions into testable predictions, so evidence decides what survives ([explore the course](https://noether-intuition-lab.aanisakrasniqi.chatgpt.site)).
+- **[KeplerLab](https://github.com/dlowzzxx/KeplerLab)**: a physics-informed neural network for orbital dynamics, built to show where it fails and why ([try the demo](https://kepler-lab.vercel.app)).
 - **[Artemis II simulator](https://github.com/dlowzzxx/artemis-ii-orbital-sim)**: an Earth–Moon N-body simulation of the Artemis II mission profile ([run it in your browser](https://artemis-ii-orbital-sim.vercel.app)).
 
 ### Merged upstream
