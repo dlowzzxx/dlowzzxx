@@ -20,11 +20,13 @@ Why every design failed is in the paper: **[Who Writes the Answer Key?](https://
 
 ### Merged upstream
 
-34 pull requests across 14 open-source repositories. Codex wrote most of the code; I pick the issue, scope the change and see it through review. A few:
+[35 merged pull requests across 14 open-source repositories](https://github.com/search?q=author%3Adlowzzxx+is%3Apr+is%3Amerged+-user%3Adlowzzxx&type=pullrequests) as of October 2026. Codex wrote most of the code; I pick the issue, scope the change and see it through review. A few:
 
 - [OpenInference #3662](https://github.com/Arize-ai/openinference/pull/3662): tracing context now survives coroutines and generators.
 - [OpenTelemetry Python #5631](https://github.com/open-telemetry/opentelemetry-python/pull/5631): named metric views without an instrument name now raise an error, with regression tests.
 - [Hugging Face tokenizers #2547](https://github.com/huggingface/tokenizers/pull/2547): Split deserialization honors the configured regex backend.
+- [OpenTelemetry GenAI #634](https://github.com/open-telemetry/opentelemetry-python-genai/pull/634): local agent invocations record inference and tool-call counts.
+- [fsspec #2268](https://github.com/fsspec/filesystem_spec/pull/2268): invalid in-memory copy destinations are rejected before they can corrupt the directory structure.
 - [OpenTelemetry GenAI #670](https://github.com/open-telemetry/opentelemetry-python-genai/pull/670): retrieval spans record document relevance scores, valid zeros included.
 
 ### Also
