@@ -2,7 +2,7 @@
 
 I try to build tests that AI can't game. So far the AI keeps winning, and the reasons are the interesting part.
 
-From September to October 2026 I led **JUMP**: one person and three AI systems (ChatGPT Pro, Codex and Claude) trying to build a benchmark of autonomous physics research that models couldn't saturate without genuinely getting better.
+From September to October 2026 I led **JUMP**: one person and three LLM's (GPT 6 Pro, GPT-6 Astra and Claude Opus 5.5) trying to build a benchmark of autonomous physics research that models couldn't saturate without genuinely getting better.
 
 ```text
 rounds of design and review ...... about 48
